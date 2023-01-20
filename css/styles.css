@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("/assets/jake-espedido-d3vvfkKisdU-unsplash.jpg");
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 64px;
+}
+
+.headerMe{
+    padding-top: 16px;
+    font-size: 54px;
+    font-weight: 800;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Rowdies', cursive;
+}
+
+.newMsg{
+    font-size: 24px;
+
+font-family: 'Dosis', sans-serif;
+font-family: 'Rowdies', cursive;
+}
+
+.scoreSection{
+    font-size: 32px;
+    justify-content: start;
+}
+
+.countingPts{
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.playerDub, .pcScore{
+    padding: 16px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+.windowsTen{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    flex-wrap: wrap;
+}
+
+.windowEleven{
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    min-height: 200px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.inactive{
+    display: none;
+}
+
+.picture{
+    height: 200px;
+    width: 200px;
+}
+
+.window:hover {
+    transform: scale(1.1);
+    border-color: cyan;
+    box-shadow: 0 0 0.5rem cyan;
+}
+
+.window:active{
+    transform: scale(0.99);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.windowContainer{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.decisionz{
+    font-weight: normal;
+    color: #F02004;
+    font-family: 'Dosis', sans-serif;
+font-family: 'Rowdies', cursive;
+}
+
+button{
+    padding: 8px 32px;
+    text-align: center;
+    font-size: 20px;
+    flex-grow: 0;
+    border-radius: 8px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: cyan;
+}
+
+button:active{
+    transform: scale(0.99);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.playerScoreUpdate{
+    color: turquoise;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+font-family: 'Rowdies', cursive;
+}
+
+.computerScoreUpdate{
+    color:#F02004;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+font-family: 'Rowdies', cursive;
+}

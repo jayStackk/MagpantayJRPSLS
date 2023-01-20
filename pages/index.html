@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors! Spock? Lizard? </title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/scripts/app.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Rowdies:wght@300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row justify-content-around mt-5 pt-5">
+
+
+            <div class="col-4 headerMe">
+
+
+                <strong> Rock, Paper, Scissors! </strong>
+            </div>
+
+            <div class="newMsg">
+                Please make a selection to start a game. First to reach 3 points wins!
+            </div>
+
+        </div>
+
+        <!----- new ROW-->
+        <br><br><br>
+
+        <div class="row justify-content-around">
+            <div class="col-2 scoreSection mt-5">
+                Score:
+                <div class="countingPts">
+                    <div class="playerDub">0</div>
+                    -
+                    <div class="pcScore">0</div>
+                </div>
+            </div>
+
+            <div class="button inactive">
+                <button class="btn btn-primary" type=button>Play Again</button>
+            </div>
+        </div>
+
+
+        <br></br>
+        <hr>
+        <hr>
+        <div id="main" class="row">
+            <div class="col-6 choosingNow">
+                <div class="windowsTen">
+                    <div class="windowContainer">
+                        <div class="windowEleven" id='rock'>
+                            <img src="/assets/477922-200.png" class="picture" alt="rock" id="rock">
+                        </div>
+                        Rock
+                        <div class="decisionz" id="computerRock">Computer's choice</div>
+                    </div>
+
+                    <!---- new Window Container! -->
+                    <div class="windowContainer">
+                        <div class="windowEleven" id='paper'>
+                            <img src="/assets/477922-200.png" class="picture" alt="paper" id="paper">
+                        </div>
+                        Paper
+
+                        <div class="decisionz " id="newScissor">Computer's choice</div>
+                        <div class="windowEleven" id='scissors'>
+                            <img src="/assets/copydownload2.png" class="picture" alt="scissors" id="scissors">
+                        </div>
+                        scissor
+                        <div class="decisionz " id="computerDecision">Computer's choice</div>
+                    </div>
+
+                    <div class="windowContainer">
+                        <div class="windowEleven" id='spock'>
+                            <img src="/assets/vulcan-salute.png" class="picture" alt="....." id="spock">
+                        </div>
+                        spock
+                        <div class="decisionz" id="newSpock">CPU's choice</div>
+                    </div>
+
+
+
+                    <div class="windowContainer">
+                        <div class="windowEleven" id='lizard'>
+                            <img src="/assets/lizard.png" class="picture" alt="....." id="lizard">
+                        </div>
+                        Lizard
+                        <div class="decisionz" id="newLizard">CPU's choice</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!----- We're getting there! -->
+
+    <!--- new WIND-->
+
+    <div class="row">
+        <div class="col-12 windowContainer">
+
+            <a href='/startPage.html'><button class="btn btn-dark">Go Home </button></a>
+
+
+        </div>
+
+        <!--- new window for my SPock! -->
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <!---- end container! -->
+    </div>
+</body>
+
+</html>
